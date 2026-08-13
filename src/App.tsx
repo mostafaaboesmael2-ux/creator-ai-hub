@@ -252,7 +252,7 @@ export default function App() {
         onClose={() => setSidebarOpen(false)}
       />
 
-      <main className="flex-1 flex flex-col min-w-0 bg-slate-950">
+      <main className="flex-1 flex flex-col min-w-0 bg-slate-950"> <ImageGenerator />
         <header className="flex items-center gap-3 p-4 border-b border-slate-800 bg-slate-900/50 backdrop-blur-sm">
           <button
             onClick={() => setSidebarOpen(true)}
