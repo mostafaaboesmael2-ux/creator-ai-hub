@@ -4,6 +4,7 @@ import Sidebar from "@/components/Sidebar";
 import ChatMessage from "@/components/ChatMessage";
 import ChatInput from "@/components/ChatInput";
 import TypingIndicator from "@/components/TypingIndicator";
+import ImageGenerator from "@/components/ImageGenerator";
 import {
   supabase,
   type Conversation,
